@@ -10,7 +10,7 @@ class App extends Component {
     return (
           <Router>
             <div className="App">
-              <Header branding="Logo"/>
+              <Header branding="ExampleCoach"/>
               <div className="container">
                 <Switch>
                   <Route exact path="/" component={Main}/>
